@@ -1,5 +1,7 @@
 import './App.css'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
@@ -7,12 +9,10 @@ function App() {
         
         <div className="bg-image"></div>
         <h1 className="main_title"><span className="blinking">PHISHECTOR</span></h1>
-		
-        
-        <div className="ta-c" >
-            <input type="checkbox" id="1" className="vh" />
-            <label for="1">Copy URL</label>
+        <div className="fnt_center">
+         <FontAwesomeIcon icon={faUserSecret} />
         </div>
+        
         <div className='data_elements'>
             <div>
                 <input type="text" value="Enter URL" style={{fontSize: '20px'}} />
