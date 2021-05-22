@@ -128,7 +128,7 @@
 .button_slide {
   position: absolute;
   top: 36%;
-  left:66%; 
+  left:70%; 
   text-decoration:none;
   text-shadow:10px 10px 10px black; 
   color: black;
@@ -176,3 +176,30 @@
 box-shadow: inset 400px 0 0 0 black;
 color: white;
 }   
+
+.res{
+	position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font: small-caps bold 21px/1 sans-serif;
+}	
+
+.css-input {
+  padding: 3px;
+  font-size: 19px;
+  border-width: 1px;
+  border-color: #4e4545;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: 1px 1px 12px rgba(66,66,66,.56);
+  text-shadow: 0px 0px 1px rgba(66,66,66,.33);
+}
+.css-input:focus {
+  outline:none;
+}
