@@ -7,7 +7,6 @@ import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 
-
 class App extends Component {
   state = {
     url: '',
@@ -65,7 +64,14 @@ render(){
             
         </div>
         <div className="abtus" />
-		  <button className="button_slide_visit slide_right_visit" >VISIT US </button>
+		  <button className="button_slide_visit slide_right_visit" onClick={(e)=>{
+        
+      }} >
+      VISIT US 
+      </button>
+      
+
+    
     </div>
   );
 }
