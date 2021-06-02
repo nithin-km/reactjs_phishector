@@ -203,3 +203,19 @@ color: white;
 .css-input:focus {
   outline:none;
 }
+
+a{
+  font-family: 'Farro', cursive;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 80%;
+  left:10%; 
+  font-size: 19px;
+  font-weight: bold;
+    
+}
+a:hover {
+  text-decoration: underline;
+}
+

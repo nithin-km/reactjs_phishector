@@ -63,12 +63,9 @@ render(){
           </div>
             
         </div>
-        <div className="abtus" />
-		  <button className="button_slide_visit slide_right_visit" onClick={(e)=>{
-        
-      }} >
-      VISIT US 
-      </button>
+
+
+        <a  href="http://google.com/" target="_blank"  style={{color: 'white'}}>VISIT US</a>
       
 
     
